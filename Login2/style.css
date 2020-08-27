@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(img/fondo.jpg) no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.log {
+    background-color: #333333c0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 330px;
+    height: 600px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+input[type = text], input[type = password] {
+    color: #333333;
+    display: block;
+    width: 80%;
+    margin: 7px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #C1BAB9;
+    border: none;
+    text-align: center;
+}
+
+input[type = submit] {
+    color: white;
+    display: block;
+    width: 86%;
+    margin: 7px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2892E0;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.log button {
+    background-color: transparent;
+    width: 80%; 
+    margin: 0px auto;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+}
+
+.log .forgot {
+    margin-top: 30px;
+    color: white;
+}
+
+.log .create {
+    margin-top: 70px;
+    color: #2892E0;
+}
